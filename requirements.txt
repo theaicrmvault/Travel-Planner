@@ -15,8 +15,11 @@ python-dotenv==1.1.1
 # Structured data validation
 pydantic==2.11.9
 
-# LangGraph - PostgreSQL checkpoint persistence
-langgraph-checkpoint-postgres==3.0.0
+# LangGraph
+langgraph==1.2.12
+langgraph-checkpoint==4.2.0
+langgraph-checkpoint-postgres==3.1.2
+
 # Airport data
 airportsdata==20250909
 
@@ -30,8 +33,10 @@ jinja2==3.1.6
 langchain==1.4.2
 langchain-core==1.6.4
 langchain-groq==1.1.3
-langgraph==1.2.12
 langchain-text-splitters==1.0.0
 
 # LangSmith - tracing, evaluation & monitoring
 langsmith==0.14.1
+
+tavily-python==0.7.24
+langchain-tavily==0.2.18

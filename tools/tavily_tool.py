@@ -14,15 +14,15 @@ def search_results(query:str):
         max_results=5
     )
 
-    results = []
+    res = []
     
-    for i, result in enumerate(response.results,1):
+    for i, result in enumerate(response['results'], 1):
         title = result.get("title", "No title")
         url = result.get("url", "")
-        snippet = result.get("content", "")
+        snippet = result.get("content", "").strip()
         if snippet and len(snippet) > 300:
             snippet = snippet[:300].rsplit(' ', 1)[0] + '...'
-        results.append(f"{i}. {title}\nURL: {url}\nSnippet: {snippet}\n")
+        res.append(f"{i}. {title}\nURL: {url}\nSnippet: {snippet}\n")
 
-    return results
+    return res
 

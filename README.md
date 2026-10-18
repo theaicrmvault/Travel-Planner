@@ -168,3 +168,6 @@ This structure assumes the FastAPI application is in `app.py`, the provided agen
 
 ## Application URL
 https://travel-planner-lwz5.onrender.com/
+
+## Evaluation
+https://smith.langchain.com/o/369f7b73-a46b-4c9f-820f-2f16a33b1414/a/travel-planner-agent

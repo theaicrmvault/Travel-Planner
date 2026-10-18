@@ -2,6 +2,8 @@
 fastapi==0.117.1
 uvicorn[standard]==0.36.0
 
+# Database
+psycopg[binary]==3.3.6
 # Statistics / numerical computing
 numpy==2.3.3
 
